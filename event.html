@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-size: 36px;" >Tech Event 2026</h1>
+    <h3 style="font-size: 24px;"> <U>Event Schedule</U> </h3>
+    <table border="6" style="font-size: 18px;">
+         <p style="font-size: 20px;"></p>
+        <tbody>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Venue</th>
+            </tr>
+            <tr>
+                <td>10:00am</td>
+                <td>Opening Ceremony</td>
+                <td>DDU Auditorium</td>
+            </tr>
+            <tr>
+                <td>11:00am</td>
+                <td>HTML Workshop session</td>
+                <td>Hira Hall</td>
+            </tr>
+            <tr>
+                <td>3:00pm</td>
+                <td>PRoject showcase</td>
+                <tD>Hira Hall</tD>
+            </tr>
+        </tbody>
+        </p>
+    </table><br>
+    <hr>
+    <section style="background-color: lightblue; padding: 20px;">
+        <h2> <u>Event Registration Form</u></h2>
+        <form action="submit.html" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required > <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" required><br><br>
+            <label for="date">Event Date:</label>
+            <input type="date" id="date" ><br><br>
+            <p><b>Ticket Type:</b></p>
+            <input type="radio" id="standard" name="ticket" value="Standard">
+            <label for="standard">Standard</label><br>
+            <input type="radio" id="vip" name="ticket" value="VIP">
+            <label for="vip">VIP</label><br>
+            <input type="radio" id="student" name="ticket" value="Student">
+            <label for="student">Student</label><br><br>
+            <p><b>Workshop Preferences:</b></p>
+            <input type="checkbox" id="html">
+            <label for="html" > HTML Basics</label><br>
+            <input type="checkbox" id="css">
+            <label for="css">CSS Basics</label><br>
+            <input type="checkbox" id="java">
+            <label for="java">Java Basics</label><br><br><br>
+            <button type="submit" style="font-size: 18px;padding: 16px 32px;background-color: blue;color: white;border-radius: 6px;">submit registration</button>
+    </form>
+    </section>
+</body>
+</html>
