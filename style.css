@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Ensures padding doesn't make elements wider than you intended */
+}
+:root {
+    --primary-color: #007bff;   /* Your main brand color */
+    --bg-color: #cad7db;      /* A dark grey for readability */
+    --text-color: hsl(240, 2%, 20%);        /* A light background color */
+}
+h1 {
+  color: var(--text-color);
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+img {
+   border-radius: 10px;
+   /* border-radius: 50%; it looks so bad so i redefined it. */
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+p{
+  font-size: 20px;
+  margin-left: 5px;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  margin-left: 5px;
+}
+h3 {
+  margin-left: 5px;
+  margin-top: 10;
+  margin-bottom: 10px;
+}
+blockquote {
+  margin-left: 5px;
+}
+dl {
+  font-size: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: teal;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color:  white;
+}
+li {
+  display: inline-block;
+}
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 25px;
+}
+li a:hover{
+  color: black;
+
+}
+section iframe {
+  background-color: lightblue;
+  padding: 20px;
+}
+section img {
+  background-color: aquamarine;
+  padding: 10px;
+}
